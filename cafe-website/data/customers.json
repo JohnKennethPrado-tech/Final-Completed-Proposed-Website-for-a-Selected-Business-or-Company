@@ -1,0 +1,6 @@
+[
+{"id":101,"name":"Maria Santos","email":"maria.santos@email.com","membership":"Gold","points":820,"favorite":"Caramel Cloud Latte","rating":5,"comment":"My morning ritual. The latte is perfect every time."},
+{"id":102,"name":"John Reyes","email":"john.reyes@email.com","membership":"Silver","points":410,"favorite":"Barako Black","rating":5,"comment":"Strong, smooth and the staff remember my order."},
+{"id":103,"name":"Angela Cruz","email":"angela.cruz@email.com","membership":"Bronze","points":150,"favorite":"Brown Sugar Croissant","rating":4,"comment":"Cozy place to study, and the croissants are amazing."},
+{"id":104,"name":"Paolo Dizon","email":"paolo.dizon@email.com","membership":"Gold","points":960,"favorite":"Iced Spanish Latte","rating":5,"comment":"Best iced latte in town. Great for long work sessions."}
+]

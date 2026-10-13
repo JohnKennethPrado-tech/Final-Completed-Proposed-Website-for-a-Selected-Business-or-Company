@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact | Boss Cafe</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="contact">
+    <header>
+        <div class="nav"><a class="brand" href="index.html"><img src="assets/images/logo.png" alt="">Boss Cafe</a>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="contact.html" class=active aria-current=page>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section>
+            <div class="wrap split" style="align-items:start">
+                <div>
+                    <h1 style="font-size:clamp(2rem,5vw,3.2rem)">Bossing!</h1>
+                    <p class="lead" style="margin-bottom:2rem">Questions, event bookings? Send us a message and
+                        we will reply within one day.</p>
+                    <ul class="info" style="padding:0">
+                        <li><b>Address</b>123 Banda Doon Street, Angeles City, Pampanga</li>
+                        <li><b>Contact number</b>+63 999 223 1234</li>
+                        <li><b>Email</b>hello@bosscafe.com</li>
+                        <li><b>Business hours</b>Mon–Sun, 7:00 AM – 10:00 PM</li>
+                        <li><b>Social media</b><a href="#">Facebook</a> · <a href="#">Instagram</a> · <a
+                                href="#">TikTok</a></li>
+                    </ul>
+                </div>
+                <form class="form" id="contactForm">
+                    <label for="name">Customer name</label><input id="name" required>
+                    <label for="email">Email address</label><input id="email" type="email" required>
+                    <label for="subject">Subject</label><input id="subject" required>
+                    <label for="date">Date</label><input id="date" type="date">
+                    <label for="message">Message</label><textarea id="message" rows="5" required></textarea>
+                    <p style="margin-top:1.2rem"><button class="btn" type="submit">Send message</button></p>
+                    <div class="msg" id="msg" role="status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div><b>Boss Cafe</b><br>123 Brew Street, Angeles City, Pampanga<br>Open daily 7:00 AM – 10:00 PM</div>
+            <div>bossing@cafe.boss<br>+63 999 223 1234<br><a href="#">Facebook</a> · <a href="#">Instagram</a> · <a
+                    href="#">TikTok</a></div>
+            <div>© 2026 Boss Cafe.<br><a href="email-mockup.html">View email campaign</a></div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
